@@ -28,6 +28,13 @@
             <version>2.3.1</version>
         </dependency>
 
+        <!-- Dependencia para la implementación de SAAJ -->
+        <dependency>
+            <groupId>com.sun.xml.messaging.saaj</groupId>
+            <artifactId>saaj-impl</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+
         <!-- Dependencia para el cliente HTTP -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -40,5 +47,4 @@
             <version>20220320</version>
         </dependency>
     </dependencies>
-
 </project>

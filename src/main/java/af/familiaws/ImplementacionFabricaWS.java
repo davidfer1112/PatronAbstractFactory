@@ -5,14 +5,11 @@
  */
 package af.familiaws;
 
+
 import abstractfactory.bases.IServiciosBasesGenericos;
 import servicios.IServiciosArticulos;
 import servicios.IServiciosEmpleados;
 
-/**
- *
- * @author Fabrizio Bolaño
- */
 public class ImplementacionFabricaWS implements IServiciosBasesGenericos {
 
     @Override
@@ -22,7 +19,6 @@ public class ImplementacionFabricaWS implements IServiciosBasesGenericos {
 
     @Override
     public IServiciosArticulos getArticulos() {
-        return new ImplementacionWSArticulos();
+        return new ImplementacionWSArticulosConSOAP();
     }
-
 }
